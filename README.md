@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-seo-custom-ideas-vs-code-GLcUm7DIvb). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -25,6 +25,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [](https://www.frontendmentor.io/solutions/responsive-page-seo-custom-ideas-vs-code-GLcUm7DIvb)
 - Live Site URL: [](https://developer-ashutosh.github.io/Interactive-Rating-Component/)
 
 ## My process
@@ -34,8 +35,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Responsive
-- SEO ranking 
+- Mobile-first workflow
 
 
 ### What I learned
