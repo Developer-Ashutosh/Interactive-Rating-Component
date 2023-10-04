@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Welcome to Interactive Rating Component developed by @Developer Ashutosh - Ashutosh Kumar">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-star.svg">
+
+  <title>Interactive Rating Component | @Developer Ashutosh</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+
+  <div class="rating-state">
+    <div class="icon">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+    <div class="rate-section">
+      <div class="ratings">1</div>
+      <div class="ratings">2</div>
+      <div class="ratings">3</div>
+      <div class="ratings">4</div>
+      <div class="ratings">5</div>
+    </div>
+    <button id="submitBtn">Submit</button>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <div class="thank-state">
+    <div class="illustration">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+    <div class="rated">
+      <p>You selected <span id="rateValue"></span> out of 5</p>
+    </div>
+    <h1> Thank you!</h1>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+    <button id="rateBtn">Rate Again !</button>
+  </div>
+
+  <!-- Thank you state end -->
+
+  <!-- Invalid State Start -->
+
+  <div class="invalid-state">
+    <div class="icon">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+    <p>Please select any rating before submiting ✌️</p>
+    <button id="invalidBtn">Go back</button>
+  </div>
+
+  <!-- Invalid State End -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Developer-Ashutosh" target="_blank">@Developer Ashutosh</a>.
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
