@@ -111,6 +111,7 @@ button:hover {
 .ratings:hover {
     background-color: var(--Light-Grey);
     color: var(--White);
+    scale: 1.1;
 }
 
 /* Rating State End */
